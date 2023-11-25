@@ -16,7 +16,8 @@ html {
 }
 
 .section__main {
-  background-image: url(https://scannero.io/assets/images/common/poster.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
+    url(https://scannero.io/assets/images/common/poster.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -100,7 +101,7 @@ html {
   line-height: 60px;
   margin-top: 8px;
   font-family: Caveat;
-  color: #607d8b;
+  color: #4895ef;
 }
 .button__animation {
   margin-top: 32px;
@@ -120,13 +121,15 @@ html {
   }
 }
 .ul__main-list {
-  margin-top: 35px;
+  margin-top: 25px;
+  padding-bottom: 15px;
 }
 .main-list {
-  font-size: 15px;
+  font-size: 18px;
   color: #f9f7f3;
-  line-height: 20px;
+  line-height: 26px;
   display: flex;
+  font-weight: 600;
   align-items: center;
   margin-top: 10px;
 }
@@ -152,6 +155,7 @@ html {
 
   border-radius: none;
 }
+
 .reverse {
   flex-direction: row-reverse;
   align-items: center;
@@ -184,12 +188,13 @@ html {
 }
 .function {
   border-end-end-radius: 0;
-  background-image: url(images/2305.w018.n002.1822B.p15.1822.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url(images/galaxy-night-landscape.jpg);
   border-start-start-radius: 40%;
   background-position: center;
 }
 .titel-function {
-  padding-top: 80px;
+  padding-top: 50px;
   max-width: 780px;
   text-align: center;
   margin: 0 auto;
@@ -204,7 +209,7 @@ html {
   border-radius: 50%;
 }
 .description-punct {
-  margin-top: -80px;
+  margin-top: -100px;
 }
 .punct {
   display: inline-block;
@@ -286,6 +291,10 @@ html {
   padding-top: 15px;
   display: none;
 }
+.shewron {
+  transition: all 0.3s ease;
+}
+
 .show {
   transition: all 0.3s ease;
   display: block;
@@ -320,9 +329,7 @@ html {
   padding-top: 10px;
   padding-bottom: 25px;
 }
-.change-color {
-  color: #4895ef;
-}
+
 .text {
   transition: all 0.5s ease;
 }
