@@ -399,7 +399,7 @@ html {
 
 @media (max-width: 640px) {
   .foto-text-main-content {
-    padding-top: 20px;
+    padding-top: 40px;
   }
   .navigation-icon-content {
     padding-top: 120px;
@@ -420,6 +420,9 @@ html {
   .function {
     margin-top: -200px;
   }
+  .span-container {
+    margin-top: 20px;
+  }
   .main__title {
     font-size: 46px;
     line-height: 54px;
@@ -430,7 +433,7 @@ html {
     font-size: 34px;
   }
   .foto-main {
-    margin-top: 100px;
+    margin-top: 30px;
   }
   .paragraph-title {
     font-size: 38px;
@@ -438,5 +441,14 @@ html {
   }
   .navigation-icon-content:last-child {
     padding-top: 0px;
+  }
+  .ul__main-list {
+    margin-top: 60px;
+  }
+  .main__title {
+    margin: 30px 0;
+  }
+  .button__animation {
+    margin-top: 50px;
   }
 }
