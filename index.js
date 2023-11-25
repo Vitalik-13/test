@@ -1,6 +1,6 @@
 const fixedHeader = document.querySelector(".header");
 const showButton = document.querySelector(".button__header");
-const changeColorLogo = document.querySelector(".foto");
+const changeColorLogo = document.querySelector(".logo-span");
 
 document.addEventListener("scroll", () => {
   if (scrollY > 50) {

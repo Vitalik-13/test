@@ -46,8 +46,20 @@ html {
   -moz-box-shadow: 1px 10px 16px -3px rgba(0, 0, 0, 0.75);
   box-shadow: 1px 10px 16px -3px rgba(0, 0, 0, 0.75);
 }
+.svg-foto {
+  position: relative;
+}
+
+.logo-span {
+  position: absolute;
+  bottom: 12px;
+  left: 42px;
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+}
 .color {
-  fill: black;
+  color: black;
 }
 .header__content {
   padding: 15px 0;
