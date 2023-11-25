@@ -6,6 +6,9 @@
 a {
   text-decoration: none;
 }
+html {
+  scroll-behavior: smooth;
+}
 .body {
   overflow-x: hidden;
   font-family: Poppins;
@@ -287,6 +290,9 @@ a {
   transition: all 0.3s ease;
   display: block;
 }
+
+/* footer */
+
 .footer {
   background-repeat: no-repeat;
   background-position: center;
