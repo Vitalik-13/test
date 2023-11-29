@@ -262,6 +262,7 @@ input[type]:checked ~ span.middle {
 .main-foto-container {
   width: 50%;
   height: 100%;
+  position: relative;
 }
 .foto-main {
   object-fit: cover;
@@ -279,9 +280,78 @@ input[type]:checked ~ span.middle {
   border-radius: none;
 }
 .reverse {
+  padding-top: 100px;
   flex-direction: row-reverse;
   align-items: center;
 }
+
+.where-abonent-block {
+  margin-top: 100px;
+}
+.abonent-block {
+  text-align: center;
+}
+.abonet-block-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.abonent-block-container {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.abonent-block-title {
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+.adonent-block-text {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.image-fone-content {
+  position: absolute;
+  top: 90px;
+  right: 0px;
+  z-index: 1;
+  /* height: 200px; */
+  color: rgba(23, 140, 235);
+  background-color: rgba(0, 0, 0, 0.7);
+  max-width: 350px;
+  padding: 12px 15px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.phone-foto-title {
+  font-size: 20px;
+  padding-bottom: 10px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  border-bottom: 1px solid rgba(23, 140, 235);
+}
+.phone-foto-data {
+  color: white;
+  padding: 8px 0;
+  font-weight: 400;
+  margin-left: auto;
+  font-size: 16px;
+}
+.phone-foto {
+  padding: 15px 0;
+  font-weight: 700;
+  color: rgba(23, 140, 235);
+}
+
+.phone-foto-location {
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+}
+
 .main__content-description {
   max-width: 420px;
 }
@@ -308,7 +378,6 @@ input[type]:checked ~ span.middle {
 }
 .function {
   border-end-end-radius: 0;
-  background-color: #dd00ff;
   border-start-start-radius: 40%;
   background-position: center;
 }
@@ -446,6 +515,7 @@ input[type]:checked ~ span.middle {
   z-index: 1;
   transition: all 0.3s ease;
   outline: transparent;
+  cursor: pointer;
 }
 .slick-arrow.slick-prev {
   left: 15%;
@@ -656,6 +726,10 @@ input[type]:checked ~ span.middle {
   }
   .transform-menu {
     transform: translate(0%);
+  }
+  .abonent-block-container {
+    flex-direction: column;
+    gap: 40px 0;
   }
 }
 
