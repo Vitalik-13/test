@@ -381,6 +381,7 @@ input[type]:checked ~ span.middle {
 .white {
   color: #ced3d7;
 }
+
 .function {
   border-end-end-radius: 0;
   border-start-start-radius: 40%;
@@ -613,6 +614,9 @@ input[type]:checked ~ span.middle {
 .show {
   transition: all 0.3s ease;
   display: block;
+}
+.bottom-list {
+  margin-top: 0px;
 }
 
 /* footer */
