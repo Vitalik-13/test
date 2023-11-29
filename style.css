@@ -31,6 +31,10 @@ html {
   transition: transform 0.3s ease;
   animation: pulseone 2s infinite;
 }
+.foto-logo {
+  width: 50px;
+  height: 70px;
+}
 .fixeded:hover {
   transform: scale(1.1);
 }
@@ -47,7 +51,7 @@ html {
   }
 }
 .section__main {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   background-image: url(images/5138023.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -69,7 +73,7 @@ html {
 }
 .fixed_header {
   width: 100%;
-  background-color: rgb(74, 69, 69);
+  background-color: rgb(49, 44, 44);
   -webkit-box-shadow: 1px 10px 16px -3px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 1px 10px 16px -3px rgba(0, 0, 0, 0.75);
   box-shadow: 1px 10px 16px -3px rgba(0, 0, 0, 0.75);
@@ -80,15 +84,15 @@ html {
 
 .logo-span {
   position: absolute;
-  bottom: 12px;
-  left: 42px;
+  bottom: 26px;
+  left: 56px;
   font-size: 30px;
   font-weight: 600;
   color: white;
 }
 
 .header__content {
-  padding: 15px 0;
+  padding: 8px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -100,6 +104,7 @@ html {
   display: flex;
   gap: 0 30px;
   align-items: center;
+  padding: 15px;
 }
 
 .link-navigation {
@@ -244,7 +249,7 @@ input[type]:checked ~ span.middle {
   }
 }
 .ul__main-list {
-  margin-top: 25px;
+  margin-top: -120px;
   padding-bottom: 15px;
 }
 .main-list {
@@ -436,8 +441,7 @@ input[type]:checked ~ span.middle {
 }
 .background {
   background-color: #000000;
-  min-height: 100vh;
-  border-radius: 100% 0% 51% 49% / 0% 100% 0% 100%;
+  padding: 50px 0;
 }
 
 /* slider */
@@ -681,6 +685,10 @@ input[type]:checked ~ span.middle {
     justify-content: center;
     align-items: center;
     display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .reverse {
     flex-direction: column;
   }
   .frame {
@@ -691,6 +699,23 @@ input[type]:checked ~ span.middle {
   }
   .second {
     margin-top: 60px;
+  }
+  .main__content {
+    order: 1;
+  }
+  .ul__main-list {
+    margin: 10px auto;
+    text-align: center;
+    width: fit-content;
+  }
+  .button__header {
+    margin: 20px auto;
+  }
+  .main-list {
+    width: 100%;
+  }
+  br {
+    display: none;
   }
 }
 @media (max-width: 840px) {
@@ -750,6 +775,9 @@ input[type]:checked ~ span.middle {
     width: 10px;
     height: 10px;
   }
+  .logo-header {
+    margin-right: auto;
+  }
 }
 @media (max-width: 640px) {
   .foto-text-main-content {
@@ -779,9 +807,9 @@ input[type]:checked ~ span.middle {
     height: 80%;
   }
 
-  .function {
+  /* .function {
     margin-top: -200px;
-  }
+  } */
   .span-container {
     margin-top: 20px;
   }
