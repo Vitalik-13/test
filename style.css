@@ -236,7 +236,6 @@ input[type]:checked ~ span.middle {
   margin-top: 32px;
   display: inline-block;
   max-width: 200px;
-  text-align: center;
   animation: pulse 2s infinite;
 }
 @keyframes pulse {
@@ -783,9 +782,9 @@ input[type]:checked ~ span.middle {
     width: 10px;
     height: 10px;
   }
-  .logo-header {
+  /* .logo-header {
     margin-right: auto;
-  }
+  } */
 }
 @media (max-width: 640px) {
   .foto-text-main-content {
