@@ -29,7 +29,6 @@ const changeColorLogo = document.querySelector(".logo-span");
 document.addEventListener("scroll", () => {
   if (scrollY > 50) {
     fixedHeader.classList.add("fixed_header");
-    showButton.classList.add("show");
   } else {
     fixedHeader.classList.remove("fixed_header");
   }
