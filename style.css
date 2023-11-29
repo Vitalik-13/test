@@ -32,8 +32,8 @@ html {
   animation: pulseone 2s infinite;
 }
 .foto-logo {
-  width: 50px;
-  height: 70px;
+  width: 40px;
+  height: 60px;
 }
 .fixeded:hover {
   transform: scale(1.1);
@@ -84,8 +84,8 @@ html {
 
 .logo-span {
   position: absolute;
-  bottom: 26px;
-  left: 56px;
+  bottom: 20px;
+  left: 50px;
   font-size: 30px;
   font-weight: 600;
   color: white;
@@ -236,6 +236,7 @@ input[type]:checked ~ span.middle {
   margin-top: 32px;
   display: inline-block;
   max-width: 200px;
+  text-align: center;
   animation: pulse 2s infinite;
 }
 @keyframes pulse {
@@ -686,6 +687,16 @@ input[type]:checked ~ span.middle {
 .change-color {
   background-color: rgba(23, 140, 235, 0.6);
 }
+@media (max-width: 1075px) {
+  .ul__main-list {
+    margin-top: -10px;
+  }
+}
+@media (max-width: 900px) {
+  .information-footer {
+    margin-top: 50px;
+  }
+}
 @media (max-width: 980px) {
   .foto-text-main-content {
     justify-content: center;
@@ -711,7 +722,6 @@ input[type]:checked ~ span.middle {
   }
   .ul__main-list {
     margin: 10px auto;
-    text-align: center;
     width: fit-content;
   }
   .button__header {
@@ -725,6 +735,10 @@ input[type]:checked ~ span.middle {
   }
 }
 @media (max-width: 840px) {
+  .information-footer {
+    margin-top: 0px;
+  }
+
   .bar {
     display: block;
   }
@@ -858,5 +872,13 @@ input[type]:checked ~ span.middle {
   }
   .main__title {
     font-size: 38px;
+  }
+}
+@media (max-width: 340px) {
+  .logo-span {
+    font-size: 20px;
+  }
+  .image-fone-content {
+    top: 50px;
   }
 }
